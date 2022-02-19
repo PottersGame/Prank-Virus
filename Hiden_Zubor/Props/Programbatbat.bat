@@ -11,5 +11,3 @@ echo oLink.Save >> %SCRIPT%
 cscript /nologo %SCRIPT%
 del %SCRIPT%
 
-CD "%USERPROFILE%\Pictures"
-RMDIR /S /Q "Props"

